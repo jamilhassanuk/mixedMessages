@@ -85,6 +85,7 @@ const quoteGame = () => {
     console.log('========== Philosopher quote ==========\n' + 'Author: ' + quote1.author + '\n' + 'Quote: ' + quote1.quote + '\n');
     console.log('========== Technology quote  ==========\n' + 'Author: ' + quote2.author + '\n' + 'Quote: ' + quote2.quote + '\n');
     console.log('========== Fun quote  =================\n' + 'Author: ' + quote3.author + '\n' + 'Quote: ' + quote3.quote);
+    console.log('\n\n');
 }
 
 quoteGame();
