@@ -1,9 +1,14 @@
+// Random quote machine
+// uses a random number to pick objects from 3 lists and display them.
+
+
+//random function
 const randomNum = () => {
     return Math.floor(Math.random() * 5);
 };
 
 
-
+// list of objects 1
 const philosopherQuote = [
     {
         author: 'Soren Kierkegaard',
@@ -28,6 +33,7 @@ const philosopherQuote = [
 ];
 
 
+//list of objects 2
 const technologyQuote = [
     {
         author: 'Arthur C. Clarke',
@@ -52,6 +58,7 @@ const technologyQuote = [
 ];
 
 
+// list of objects 3
 const funQuote = [
     {
         author: 'Mitch Hedberg',
@@ -76,7 +83,7 @@ const funQuote = [
 ]
 
 
-
+// game to call random and apply to each list of objects and display them
 const quoteGame = () => {
     quote1 = philosopherQuote[randomNum()];
     quote2 = technologyQuote[randomNum()];
@@ -88,5 +95,7 @@ const quoteGame = () => {
     console.log('\n\n');
 }
 
+
+// calling the game
 quoteGame();
 
