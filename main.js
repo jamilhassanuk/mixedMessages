@@ -81,9 +81,10 @@ const quoteGame = () => {
     quote1 = philosopherQuote[randomNum()];
     quote2 = technologyQuote[randomNum()];
     quote3 = funQuote[randomNum()];
-    console.log('Philosopher quote =====\n' + 'Author: ' + quote1.author + '\n' + 'Quote: ' + quote1.quote + '\n');
-    console.log('Technology quote  =====\n' + 'Author: ' + quote2.author + '\n' + 'Quote: ' + quote2.quote + '\n');
-    console.log('Fun quote         =====\n' + 'Author: ' + quote3.author + '\n' + 'Quote: ' + quote3.quote);
+    console.log('FAMOUS QUOTES MACHINE !!! \n\n');
+    console.log('========== Philosopher quote ==========\n' + 'Author: ' + quote1.author + '\n' + 'Quote: ' + quote1.quote + '\n');
+    console.log('========== Technology quote  ==========\n' + 'Author: ' + quote2.author + '\n' + 'Quote: ' + quote2.quote + '\n');
+    console.log('========== Fun quote  =================\n' + 'Author: ' + quote3.author + '\n' + 'Quote: ' + quote3.quote);
 }
 
 quoteGame();
